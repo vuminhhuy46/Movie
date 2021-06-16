@@ -1,0 +1,58 @@
+.header {
+  background-color: #fafafa;
+}
+
+.header .headerGridOne {
+  text-align: left;
+}
+
+.header .headerGridTwo {
+  text-align: center;
+}
+
+.header .headerGridThere {
+  text-align: right;
+}
+
+.header .headerloGo {
+  width: 50px;
+  height: 50px;
+  opacity: 0.7;
+}
+
+.header .headerTitleLinkTwo .headerTitleTwo {
+  text-decoration: none;
+  display: inline;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.9);
+  margin: 0 10px;
+  letter-spacing: 1px;
+}
+
+.header .headerTitleLinkTwo :hover {
+  color: red;
+}
+
+.header .headerTitleLinkThere .headerTitleThere {
+  text-decoration: none;
+  display: inline;
+  opacity: 0.7;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.9);
+  margin: 0 10px;
+  letter-spacing: 1px;
+}
+
+.header .headerTitleLinkThere :hover {
+  color: gray;
+}
+
+.header .headerIconLogIn {
+  color: #b0bec5;
+  opacity: 0.7;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=header.style.css.map */

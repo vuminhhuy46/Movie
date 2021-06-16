@@ -1,0 +1,50 @@
+.backapp {
+    // background : url(../images/backapp.jpg) no-repeat center;
+    background-size: cover;
+    height: auto;
+}
+.backapp_ip_slide{
+    position: relative;
+}
+.backapp_ip_img{
+    width: 207px;
+}
+.your-class {
+    width: 195px!important;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+}
+.clas_img {
+    outline: none!important;
+}
+.slick-next , .slick-prev {
+    display: none!important;
+}
+/* footer Ending */
+.ending__content ul li , .info__contact ul li {
+    list-style: none;
+}
+.ending__text ul li a:hover {
+    color: white!important;
+}
+.logo img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    opacity: 1;
+    transition: all .5s;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.logo img:hover {
+    opacity: 0.5;
+}
+.icon__app img {
+    height: 30px;
+    width: 30px;
+    margin: 0 5px;
+}
+/* Footer */

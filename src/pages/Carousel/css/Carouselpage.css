@@ -1,0 +1,67 @@
+.slider {
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.slider .imageSlider {
+  width: 100%;
+  height: 818px;
+}
+
+.slider .right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  right: 32px;
+}
+
+.slider .left-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  left: 32px;
+}
+
+.slider .center .iconPlay {
+  opacity: 0;
+  font-size: 100px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.356);
+  text-align: center;
+  padding: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 48%;
+  left: 48%;
+  z-index: 9;
+}
+
+.slider:hover .iconPlay {
+  opacity: 1;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=Carouselpage.css.map */

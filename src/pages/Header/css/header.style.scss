@@ -1,0 +1,54 @@
+// #navbar {
+//     transition: top 0.3s;
+//     position: fixed;
+// }
+@mixin headerTitleLink {
+    text-decoration: none;
+    display: inline;
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.9);
+    margin: 0 10px;
+    letter-spacing: 1px;
+}
+.header {
+    background-color: #fafafa;
+    .headerGridOne {
+        text-align: left;
+    }
+    .headerGridTwo {
+        text-align: center;
+    }
+    .headerGridThere {
+        text-align: right;
+    }
+    .headerloGo {
+        width: 50px;
+        height: 50px;
+        opacity: 0.7;
+    }
+    .headerTitleLinkTwo {
+        .headerTitleTwo {
+            @include headerTitleLink;
+        }
+        :hover {
+            color: red;
+        }
+    }
+
+    .headerTitleLinkThere {
+        .headerTitleThere {
+            @include headerTitleLink;
+        }
+        :hover {
+            color: gray;
+        }
+    }
+
+    .headerIconLogIn {
+        color: #b0bec5;
+        opacity: 0.7;
+        vertical-align: middle;
+    }
+}
